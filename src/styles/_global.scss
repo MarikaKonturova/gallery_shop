@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  color: #dccece;
+}
+
+body {
+  background: $bg-color;
+  font-family: $main-font;
+  animation: opening 1s ease-in-out;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:active,
+a:visited {
+  color: white;
+}
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: $header1;
+  font-weight: 400;
+}
+h2 {
+  font-size: $header2;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: $header4;
+  font-weight: 400;
+}
+
+p {
+  font-size: $text;
+  font-weight: 400;
+}
+textarea:focus,
+button:focus,
+input:focus {
+  outline: none;
+}
+

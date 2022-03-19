@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+$wrapper: 9.7rem;
+$header1: 7.6rem;
+$header2: 1.8rem;
+$header4: 1.4rem;
+$text: 1.6rem;
+$main-font: "Roboto", sans-serif;
+$intro-font: "Lora", serif;
+$bg-color: #1b1717;
+$bt-hover-color: #554e4e;
+$main-color: #dccece;
+$not-active-font-color: rgba(220, 206, 206, 0.5);
+$active-font-color: rgb(220, 206, 206);
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+
+@import "global";
+@import "header";
+@import "intro";
+@import "footer";
+@import "main";
+
+

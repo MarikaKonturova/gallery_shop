@@ -1,0 +1,23 @@
+.footer {
+  height: 21.8rem;
+  background-image: url(../../assets/img/footer.svg);
+  p{
+      font-size: 1.8rem;
+  }
+}
+.footer_wrapper {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+  @include flex(initial, center, row);
+}
+.footer_contacts {
+  flex: 1;
+  @include flex(center, flex-start, column);
+  line-height: 3.5rem;
+}
+.footer_copyrights {
+  flex: 1;
+  @include flex(flex-end, center, row);
+  color: $not-active-font-color;
+}

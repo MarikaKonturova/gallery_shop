@@ -1,0 +1,64 @@
+.header {
+  z-index: -1;
+  height: 14rem;
+  width: 90%;
+  margin: auto;
+  @include flex(initial, center, row);
+}
+
+//LOGO
+.logo_group {
+  flex: 1;
+  @include flex(flex-start, center, row);
+  column-gap: 2rem;
+}
+.logo_text {
+  text-transform: uppercase;
+}
+
+//CARD
+.card_group {
+  flex: 1;
+  @include flex(flex-end, center, row);
+  column-gap: 0.3rem;
+}
+.card_text {
+  padding-left: 0.4rem;
+  text-transform: uppercase;
+}
+.card_count {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.3rem;
+
+  background: #fff;
+  color: #666;
+  text-align: center;
+  font: 1.2rem $main-font;
+}
+@media screen and (max-width: 548px) {
+  .logo_group {
+    flex: 2;
+    column-gap: 1rem;
+    img {
+      width: 3rem;
+    }
+  }
+  .logo_text {
+    font-size: 1.2rem;
+  }
+  .card_group {
+    img {
+      width: 1.5rem;
+    }
+  }
+  .card_text {
+    font-size: 1.2rem;
+  }
+  .card_count{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.05rem;
+  }
+}
