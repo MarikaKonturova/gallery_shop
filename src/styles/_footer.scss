@@ -1,8 +1,8 @@
 .footer {
   height: 21.8rem;
   background-image: url(../../assets/img/footer.svg);
-  p{
-      font-size: 1.8rem;
+  p {
+    font-size: 1.8rem;
   }
 }
 .footer_wrapper {
@@ -20,4 +20,33 @@
   flex: 1;
   @include flex(flex-end, center, row);
   color: $not-active-font-color;
+}
+@media screen and(max-width: 733px) {
+  .footer {
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media screen and(max-width: 606px) {
+  .footer_wrapper {
+    padding: 3rem 0;
+    @include flex(center, center, column);
+
+  }
+  .footer_contacts {
+    text-align: center;
+    line-height: 5rem;
+width: 100%;
+    @include flex(center, center, column);
+  }
+  .footer_copyrights {
+width: 100%;
+    
+    @include flex( center, center,row);
+    color: $not-active-font-color;
+  }
+ 
+  
 }

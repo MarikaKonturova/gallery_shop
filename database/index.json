@@ -1,0 +1,121 @@
+{
+  "paintings": [
+    {
+      "id": "1",
+      "name": "Рождение Венеры",
+      "author": "Сандро Ботичели",
+      "year": "1501 г.",
+      "imgUrl": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1481&q=80",
+      "price": "1000000",
+      "sold": false
+    },
+    {
+      "id": "2",
+      "name": "Ibragim ipsum",
+      "author": "Lorem ipsum",
+      "year": "0000 г.",
+      "imgUrl": "https://images.unsplash.com/photo-1583119912267-cc97c911e416?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "price": "1000000",
+      "sold": false
+    },
+    {
+      "id": "3",
+      "name": "Lorem ipsum",
+      "author": "Lorem ipsum",
+      "year": "0000 г.",
+      "imgUrl": "https://images.unsplash.com/photo-1577083552792-a0d461cb1dd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1870&q=80",
+      "price": "1000000",
+      "sold": false
+    },
+    {
+      "id": "4",
+      "name": "Lorem ipsum",
+      "author": "Lorem ipsum",
+      "year": "0000 г.",
+      "imgUrl": "https://images.unsplash.com/photo-1584285146494-e8c71edf5e5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1347&q=80",
+      "price": "1000000",
+      "sold": false
+    },
+    {
+      "id": "5",
+      "name": "Lorem ipsum",
+      "author": "Lorem ipsum",
+      "year": "0000 г.",
+      "imgUrl": "https://images.unsplash.com/photo-1579541764764-6401d4100dd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=700&q=60",
+      "price": "1000000",
+      "sold": false
+    },
+    {
+      "id": "6",
+      "name": "Lorem ipsum",
+      "author": "Lorem ipsum",
+      "year": "0000 г.",
+      "imgUrl": "https://images.unsplash.com/photo-1556005693-00fff02f134c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80",
+      "price": "1000000",
+      "sold": false
+    },
+    {
+      "id": "7",
+      "name": "Lorem ipsum",
+      "author": "Lorem ipsum",
+      "year": "0000 г.",
+      "imgUrl": "https://images.unsplash.com/photo-1599894019794-50339c9ad89c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "price": "1000000",
+      "sold": false
+    },
+    {
+      "id": "8",
+      "name": "Lorem ipsum",
+      "author": "Lorem ipsum",
+      "year": "0000 г.",
+      "imgUrl": "https://images.unsplash.com/photo-1614247262098-76459e80e152?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1341&q=80",
+      "price": "1000000",
+      "sold": false
+    },
+    {
+      "id": "9",
+      "name": "Lorem ipsum",
+      "author": "Lorem ipsum",
+      "year": "0000 г.",
+      "imgUrl": "https://images.unsplash.com/photo-1580136579295-b22833edc5e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1299&q=80",
+      "price": "1000000",
+      "sold": false
+    },
+    {
+      "id": "10",
+      "name": "Lorem ipsum",
+      "author": "Lorem ipsum",
+      "year": "0000 г.",
+      "imgUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=890&q=80",
+      "price": "1000000",
+      "sold": false
+    },
+    {
+      "id": "11",
+      "name": "Lorem ipsum",
+      "author": "Lorem ipsum",
+      "year": "0000 г.",
+      "imgUrl": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=816&q=80",
+      "price": "1000000",
+      "sold": false
+    },
+    {
+      "id": "12",
+      "name": "Lorem ipsum",
+      "author": "Lorem ipsum",
+      "year": "0000 г.",
+      "imgUrl": "https://images.unsplash.com/photo-1574182245530-967d9b3831af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80",
+      "price": "1000000",
+      "sold": false
+    },
+    {
+      "id": "13",
+      "name": "Lorem ipsum",
+      "author": "Lorem ipsum",
+      "year": "0000 г.",
+      "imgUrl": "https://images.unsplash.com/photo-1579783902188-1dbf2b672dc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=916&q=80",
+      "price": "1000000",
+      "sold": false
+    }
+  ]
+}

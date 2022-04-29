@@ -10,6 +10,10 @@
     "@types/node": "^16.11.26",
     "@types/react": "^17.0.40",
     "@types/react-dom": "^17.0.13",
+    "axios": "^0.26.1",
+    "json-server": "^0.17.0",
+    "mobx": "^6.5.0",
+    "mobx-react-lite": "^3.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -20,7 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "json-server database/index.json --port 3001"
   },
   "eslintConfig": {
     "extends": [

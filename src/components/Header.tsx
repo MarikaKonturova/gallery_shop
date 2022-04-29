@@ -1,7 +1,13 @@
+import { observer } from "mobx-react-lite";
 import React from "react";
 import card from '../assets/icons/card.svg'
 import logo from '../assets/img/logo.svg'
-export const Header = () => {
+import { useRootStore } from './../stores/RootStateContext';
+
+ export const Header:React.FC = observer(() => {
+   const {cartStore} = useRootStore()
+const {getCount} = cartStore
+
   return (
     <header className="header">
       <div className="logo_group">
@@ -14,8 +20,8 @@ export const Header = () => {
         <div className="card_group">
           <img src={card} alt="card icon" className="card_icon" />
           <p className="card_text">Корзина</p>
-          <div className="card_count">5</div>
+          <div className="card_count">{getCount}</div>
         </div>
     </header>
   );
-};
+});
