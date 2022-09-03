@@ -7,7 +7,7 @@
       "year": "1501 г.",
       "imgUrl": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1481&q=80",
       "price": "1000000",
-      "sold": false
+      "sold": true
     },
     {
       "id": "2",
@@ -16,7 +16,7 @@
       "year": "0000 г.",
       "imgUrl": "https://images.unsplash.com/photo-1583119912267-cc97c911e416?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
       "price": "1000000",
-      "sold": false
+      "sold": true
     },
     {
       "id": "3",
@@ -25,7 +25,7 @@
       "year": "0000 г.",
       "imgUrl": "https://images.unsplash.com/photo-1577083552792-a0d461cb1dd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1870&q=80",
       "price": "1000000",
-      "sold": false
+      "sold": true
     },
     {
       "id": "4",
@@ -43,7 +43,7 @@
       "year": "0000 г.",
       "imgUrl": "https://images.unsplash.com/photo-1579541764764-6401d4100dd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=700&q=60",
       "price": "1000000",
-      "sold": false
+      "sold": true
     },
     {
       "id": "6",
@@ -52,7 +52,7 @@
       "year": "0000 г.",
       "imgUrl": "https://images.unsplash.com/photo-1556005693-00fff02f134c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80",
       "price": "1000000",
-      "sold": false
+      "sold": true
     },
     {
       "id": "7",
@@ -61,7 +61,7 @@
       "year": "0000 г.",
       "imgUrl": "https://images.unsplash.com/photo-1599894019794-50339c9ad89c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "price": "1000000",
-      "sold": false
+      "sold": true
     },
     {
       "id": "8",

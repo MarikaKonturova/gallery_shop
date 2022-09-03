@@ -3,7 +3,7 @@ import { makeAutoObservable } from "mobx";
 import { TPainting } from "../types";
 import { stores } from "./RootStateContext";
 
-export const DOMAIN = "http://localhost:3001";
+export const DOMAIN = "https://gallery-shop-back.herokuapp.com";
 
 class PaintingsStore {
   public paintings: TPainting[] = [];
@@ -11,7 +11,7 @@ class PaintingsStore {
     makeAutoObservable(this);
   }
 
-   transformPaints=()=> {
+  transformPaints = () => {
     let transPaints = this.paintings;
     const { auction, searchQuery } = stores.filterStore;
     if (auction) {
@@ -23,14 +23,14 @@ class PaintingsStore {
       );
     }
     return transPaints;
-  }
+  };
 
   setPaintings = (paintings: TPainting[]) => {
     return (this.paintings = paintings);
   };
   fetchPaintings = () => {
     axios
-      .get(`${DOMAIN}/paintings`)
+      .get<TPainting[]>(`${DOMAIN}/paintings`)
       .then((resp) => {
         const newPaintings = resp.data;
         this.setPaintings(newPaintings);
