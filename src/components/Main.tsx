@@ -5,7 +5,7 @@ import sold from "../assets/icons/sold.svg";
 import { useRootStore } from "../stores/RootStateContext";
 import { TPainting } from "../types";
 import { observer } from "mobx-react-lite";
-
+import plug from '../assets/img/plug.jpg'
 export const Main = observer(() => {
   const { paintingsStore } = useRootStore();
   const { transformPaints } = paintingsStore;

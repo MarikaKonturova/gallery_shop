@@ -8,7 +8,7 @@ import { observer } from "mobx-react-lite";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">`
       <Header />
       <Intro />
       <Main />
