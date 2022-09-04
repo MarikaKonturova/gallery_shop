@@ -308,8 +308,8 @@ input:focus {
   font-size: 2.6rem;
 }
 .painting_group:nth-child(4) .painting_sold {
-  width: 100%;
   font-size: 3rem;
+  flex: 3;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -318,6 +318,13 @@ input:focus {
 .painting_group:nth-child(4) .painting_sold img {
   opacity: 1;
   width: 15%;
+}
+
+.painting_sold_group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 1rem;
 }
 
 .painting_group {
@@ -396,7 +403,7 @@ input:focus {
   opacity: 1;
   transition: all 0.2s;
 }
-.painting_info button:focus {
+.painting_info button:active {
   background: #dccece;
   color: #1b1717;
   border: none;
@@ -557,7 +564,7 @@ input:focus {
   font-size: 1.6rem;
   padding: 0.7rem 0.5rem;
 }
-.button:focus {
+.button:active {
   outline: 0;
 }
 

@@ -5,7 +5,7 @@ import sold from "../assets/icons/sold.svg";
 import { useRootStore } from "../stores/RootStateContext";
 import { TPainting } from "../types";
 import { observer } from "mobx-react-lite";
-import plug from '../assets/img/plug.jpg'
+import plug from "../assets/img/plug.jpg";
 export const Main = observer(() => {
   const { paintingsStore } = useRootStore();
   const { transformPaints } = paintingsStore;
@@ -58,7 +58,7 @@ const Filter: React.FC = observer(() => {
           placeholder="Поиск по названию картины"
           onChange={onCHangeHandler}
         />
-        <button className="input_button" onClick={()=>{}}>
+        <button className="input_button" onClick={() => {}}>
           Найти <img src={search} alt="" />{" "}
         </button>
       </div>
@@ -88,10 +88,15 @@ interface IPaint {
 export const Paint: React.FC<IPaint> = ({ paint, i }: IPaint) => {
   const { paintingsStore, cartStore } = useRootStore();
   const { updatePainting } = paintingsStore;
-  const { addToCart } = cartStore;
+  const { addToCart, removefromCart } = cartStore;
   const onClickHandler = (paint: TPainting) => {
     updatePainting(paint);
-    addToCart(paint);
+    if(paint.sold){
+      removefromCart(paint)
+    }else if(!paint.sold){
+      addToCart(paint);
+
+    }
   };
   return (
     <div
@@ -107,10 +112,15 @@ export const Paint: React.FC<IPaint> = ({ paint, i }: IPaint) => {
           </p>
         </div>
         {paint.sold ? (
-          <p className="painting_sold">
-            <img src={sold} alt="" />
-            Продана на аукционе
-          </p>
+          <div className="painting_sold_group">
+            <p className="painting_sold">
+              <img src={sold} alt="" />
+              Продана на аукционе
+            </p>
+            <button className="button" onClick={() => onClickHandler(paint)} style={{ width: '80%', alignSelf: "center"}}>
+              отмена
+            </button>
+          </div>
         ) : (
           <div className="painting_purchase">
             <div className="painting_purchase_price">

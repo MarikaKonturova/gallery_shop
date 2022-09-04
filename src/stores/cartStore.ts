@@ -1,7 +1,7 @@
 import { makeAutoObservable } from "mobx";
 import { TPainting } from "../types";
 class CartStore {
-  public cartPaintings: TPainting[] = []
+  public cartPaintings: TPainting[] = [];
   constructor() {
     makeAutoObservable(this);
   }
@@ -10,6 +10,11 @@ class CartStore {
   }
   addToCart = (painting: TPainting) => {
     this.cartPaintings.push(painting);
+  };
+  removefromCart = (painting: TPainting) => {
+    this.cartPaintings = this.cartPaintings.filter(
+      (paint) => paint.id !== painting.id
+    );
   };
 }
 
