@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gallery_shop/static/css/main.029471ae.css",
-    "main.js": "/gallery_shop/static/js/main.95039cb7.js",
+    "main.css": "/gallery_shop/static/css/main.f07092ce.css",
+    "main.js": "/gallery_shop/static/js/main.313dd099.js",
     "static/media/footer.png": "/gallery_shop/static/media/footer.bd1ea0dc41ccd7548cb6.png",
     "static/media/logo.svg": "/gallery_shop/static/media/logo.71ba1bd9cdb9b8b833da9936596a7aa8.svg",
     "static/media/introImg.svg": "/gallery_shop/static/media/introImg.13467d13440fca3b68b2b8a6aa74c4b9.svg",
@@ -9,11 +9,11 @@
     "static/media/sold.svg": "/gallery_shop/static/media/sold.27e30009322d1486ac475754a4719670.svg",
     "static/media/card.svg": "/gallery_shop/static/media/card.7d6275ef014d9ba31fb86ec67b9fff9f.svg",
     "static/media/search.svg": "/gallery_shop/static/media/search.f67c85c90efc870eeb321cb54d90c90c.svg",
-    "main.029471ae.css.map": "/gallery_shop/static/css/main.029471ae.css.map",
-    "main.95039cb7.js.map": "/gallery_shop/static/js/main.95039cb7.js.map"
+    "main.f07092ce.css.map": "/gallery_shop/static/css/main.f07092ce.css.map",
+    "main.313dd099.js.map": "/gallery_shop/static/js/main.313dd099.js.map"
   },
   "entrypoints": [
-    "static/css/main.029471ae.css",
-    "static/js/main.95039cb7.js"
+    "static/css/main.f07092ce.css",
+    "static/js/main.313dd099.js"
   ]
 }
