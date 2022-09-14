@@ -4,7 +4,7 @@
 
 ![image](https://user-images.githubusercontent.com/69147255/174999371-375669dc-4d3c-40c0-812f-ed327c7afb9f.png)
 
-### You can test it on 
+### You can test it [here](https://marikakonturova.github.io/gallery_shop/).
 
 ![image](https://user-images.githubusercontent.com/69147255/174999655-125bc64a-4379-4e00-b98c-e2182f28f8bc.png)
 
