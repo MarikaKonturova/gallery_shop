@@ -3,7 +3,7 @@ import { makeAutoObservable } from "mobx";
 import { TPainting } from "../types";
 import { stores } from "./RootStateContext";
 
-export const DOMAIN = "https://gallery-shop-back.herokuapp.com";
+export const DOMAIN = "https://gallery-shop-back.onrender.com";
 
 class PaintingsStore {
   public paintings: TPainting[] = [];
@@ -44,8 +44,7 @@ class PaintingsStore {
   };
   updatePainting = (painting: TPainting) => {
     axios
-      .put(`${DOMAIN}/paintings/${painting.id}`, {
-        ...painting,
+      .patch(`${DOMAIN}/paintings/${painting.id}`, {
         sold: !painting.sold,
       })
       .then((resp) => {
