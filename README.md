@@ -2,7 +2,7 @@
 
 ### Created with Mobx and json-server. 
 
-to enable the server, go to [github-pages](https://marikakonturova.github.io/gallery_shop/) and refresh the page several times (aprox. 2-3 times) using ctrl+r (⌘+r on mac).
+On [github-pages](https://marikakonturova.github.io/gallery_shop/) if you don't see paintings, it means the server needs to be woken up. Please, refresh the page several times (aprox. 2-3 times) using ctrl+r (⌘+r on mac). 
 
 
 ![image](https://user-images.githubusercontent.com/69147255/174999371-375669dc-4d3c-40c0-812f-ed327c7afb9f.png)
